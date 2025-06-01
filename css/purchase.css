@@ -1,0 +1,93 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Glassmorphic Container */
+.mcontainer {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Form Box */
+.form-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+/* Input Groups */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Input Fields */
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Input Focus Effect */
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Stylish Button */
+button {
+    padding: 12px;
+    background: #ff7eb3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    background: #ff5277;
+    transform: scale(1.05);
+}
